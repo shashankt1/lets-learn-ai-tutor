@@ -1,0 +1,27 @@
+# --- Frontend ---
+streamlit
+
+# --- Backend (API) ---
+fastapi
+uvicorn[standard]
+
+# --- LLM + RAG Tools ---
+sentence-transformers
+faiss-cpu  # Or faiss-gpu if using GPU
+transformers
+torch
+langchain
+
+# --- Transcription (Whisper) ---
+openai-whisper
+ffmpeg-python  # Needed for audio pre-processing
+
+# --- File Processing ---
+PyPDF2
+python-docx
+
+# --- Data ---
+tinydb
+
+# --- Misc ---
+python-dotenv  # For .env support
